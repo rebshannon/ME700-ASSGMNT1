@@ -52,7 +52,7 @@ The potential energy stored in a spring is defined as
 
 $$U_s=\frac{1}{2}k x^2$$
 
-where $U_s$, $k$, and $\Delta x$ are the spring potential energy, spring constant, and spring displacement, respectively. Consider a spring whose equilibrium length is $x = 10~cm$ that has a spring constant of $k = 10~N/m$. At what length does the spring have an potential enerrgy of $U_s=0.033~J$?
+where $U_s$, $k$, and $\Delta x$ are the spring potential energy, spring constant, and spring displacement, respectively. Consider a spring whose equilibrium length is $x = 10cm$ that has a spring constant of $k = 10N/m$. At what length does the spring have an potential enerrgy of $U_s=0.033J$?
 
 ### Example 4: Bernoulli's Equation
 
@@ -60,10 +60,10 @@ When considering incompressible, steady flow with no friction, Bernoulli's Equat
 
 $$p_1+\frac{1}{2}\rho v_1^2 = p_2+\frac{1}{2}\rho v_2^2$$
 
-Where $p$, $\rho$, and $v$ are the static pressure, fluid density, and fluid velocity. The subscripts $\{1,2\}$ indicate the two different locations along the streamline. At point $1$, water $(\rho = 997~kg/m^3)$ is travelling in a pipe with a static pressure of $1\times10^5~Pa$ and a velocity of $10~m/s$. At point $2$, the area of the pipe has decreased, so the pressure has decreased to $5\times10^4~Pa$. What is the fluid velocity at point $2$?
+Where $p$, $\rho$, and $v$ are the static pressure, fluid density, and fluid velocity. The subscripts $\{1,2\}$ indicate the two different locations along the streamline. At point $1$, water $(\rho = 997 kg/m^3)$ is travelling in a pipe with a static pressure of $1\times10^5Pa$ and a velocity of $10m/s$. At point $2$, the area of the pipe has decreased, so the pressure has decreased to $5\times10^4 Pa$. What is the fluid velocity at point $2$?
 
 ### Example 5: Kinematic Equation
 
 $$\Delta x = v_i t+\frac{1}{2}at^2$$
 
-where $\Delta x$, $v_i$, $t$, and $a$ are the distance travelled, initial velocity, time, and acceleration, respectively. If a car starts from rest and moves with a constant acceleration of $3~m/s^2$, how long does it take the car to travel $1000~m$?
+where $\Delta x$, $v_i$, $t$, and $a$ are the distance travelled, initial velocity, time, and acceleration, respectively. If a car starts from rest and moves with a constant acceleration of $3 m/s^2$, how long does it take the car to travel $1000 m$?
