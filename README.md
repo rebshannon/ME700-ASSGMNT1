@@ -2,11 +2,12 @@
 # ME700 Assignment 1
 
 Rebecca Shannon  
-1/29/2025
+1/29/2025  
+Python 3.12.8
 
 ## About the Solver
 
-Uses the bisection method to find the root $(x = C)$ of a provided function $f(x)$ based on the user's initial guesses $(x = A,~B)$. The tolerance and maximum number of iterations are also defined by the user.
+Uses the bisection method to find the root $(x = C)$ of a provided function $f(x)$ based on the user's initial guesses $(x = A,~B)$. The tolerance and maximum number of iterations are also defined by the user. The `numpy` library is needed to run this solver.
 
 ## Definitions
 
@@ -31,13 +32,13 @@ In the *bisectionMethod.py* script, four user inputs are required: two initial g
 
 The function $f(x)$ that is being solved should be defined in a separate Python script and imported as *exSoln*. The solutions to these examples are currently held in *exampleSolutions.py*. All constants needed for the desired function should also be defined here. In this script,  uncomment the function associated with the example problem that you are atttempting. When moving on to another example, make sure to comment out the old example function (e.g. only one function in *exampleSolutions.py* should be uncommented at a time).
 
-To test the functions, run the `pytest <workdir>` command in the terminal. Note \<workDir\> indicates the directory in which the assignment is stored.
+To test the functions, run the `pytest <workdir>` command in the terminal. Note `\<workDir\>` indicates the directory in which the assignment is stored.
 
 ## Examples
 
 ### Example 1: Polynomial \#1
 
-Use the bisection method to find the root of the following equation:
+Use the bisection method to find the root of the following equation:  
 $$y = x^3 + 3x - 1$$
 
 ### Example 2: Polynomial \#2
@@ -52,7 +53,7 @@ The potential energy stored in a spring is defined as
 
 $$U_s=\frac{1}{2}k x^2$$
 
-where $U_s$, $k$, and $\Delta x$ are the spring potential energy, spring constant, and spring displacement, respectively. Consider a spring whose equilibrium length is $x = 10cm$ that has a spring constant of $k = 10N/m$. At what length does the spring have an potential enerrgy of $U_s=0.033J$?
+where $U_s$, $k$, and $x$ are the spring potential energy, spring constant, and spring displacement, respectively. Consider a spring whose equilibrium length is $x = 10cm$ that has a spring constant of $k = 10N/m$. At what length does the spring have an potential enerrgy of $U_s=0.033J$?
 
 ### Example 4: Bernoulli's Equation
 
@@ -64,6 +65,7 @@ Where $p$, $\rho$, and $v$ are the static pressure, fluid density, and fluid vel
 
 ### Example 5: Kinematic Equation
 
+The motion of an opject travelling with a specified initial velocity and constant acceleration can be described by the following equation.
 $$\Delta x = v_i t+\frac{1}{2}at^2$$
 
 where $\Delta x$, $v_i$, $t$, and $a$ are the distance travelled, initial velocity, time, and acceleration, respectively. If a car starts from rest and moves with a constant acceleration of $3 m/s^2$, how long does it take the car to travel $1000 m$?
